@@ -1,0 +1,12 @@
+Plans as of now
+	utilize writing as bytes to overhaul the entire information sending system
+	make an NPC
+	
+Bug report
+	partial fix by changing client to only send new information
+		Bad line possibly coming from a bullet despawning while the loops is going through all the bullets for the player
+		making sentArray volatile does not work
+		using a constant int for bullet size does not work
+		Only messes up on the 10th bullet/9th bullet
+	Figure out why players made first then AI in players arraylist
+	
